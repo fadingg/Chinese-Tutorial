@@ -19,7 +19,7 @@ prependJs:
 contentType: tutorial
 ---
 
-这是[系列教程](https://docs.mapbox.com/studio-manual/help/#add-points-to-a-map)中的第二部分，在这一部分中将会教您如何使用Mapbox Studio数据集编辑器、Mapbox Studio样式编辑器和Mapbox GL JS在网络地图中添加点。
+这是[series of tutorials](https://docs.mapbox.com/studio-manual/help/#add-points-to-a-map)中的第二部分，在这一部分中将会教您如何使用Mapbox Studio数据集编辑器、Mapbox Studio样式编辑器和Mapbox GL JS在网络地图中添加点。
 *第二部分*Mapbox Studio关注于样式编辑器。在本教程中，您将会学习如何：
 
 - 利用Mapbox默认样式创建一个新的样式
@@ -35,7 +35,7 @@ contentType: tutorial
 
 以下是在使用教程中将会用到的一些资源：
 
-- **地形数据集。** 您将需要一个包含10个芝加哥公园的地形数据集。您可以在[添加点到Web地图，第1部分：创建数据集](/help/tutorials/add-points-pt-1)中学习如何创建这个地形数据集。
+- **地形数据集。** 您将需要一个包含10个芝加哥公园的地形数据集。您可以在[Add points to a web map, Part 1: create a dataset](/help/tutorials/add-points-pt-1)中学习如何创建这个地形数据集。
 - **自定义图标。** 本教程使用自定义图标显示公园的位置。 您需要下载SVG图标才能在您的样式中使用。
 
 {{
@@ -46,11 +46,11 @@ contentType: tutorial
 
 ## 将数据添加到一个样式中
 
-Web地图由[地图瓦片集](/help/how-mapbox-works/web-apps/)组成。要将数据添加到Web地图，Mapbox会将其切割为瓦片，以便数据以各种缩放级别显示。 Mapbox将地图切割成的图块集合称为瓦片集。在[向Web地图添加点，第1部分：创建数据集](/help/tutorials/add-points-pt-1)时，您将数据集转换为地图瓦片集以将其添加到新的地图样式。
+Web地图由[map tiles](/help/how-mapbox-works/web-apps/)组成。要将数据添加到Web地图，Mapbox会将其切割为瓦片，以便数据以各种缩放级别显示。 Mapbox将地图切割成的图块集合称为瓦片集。在[Add points to a web map, part 1: create a dataset](/help/tutorials/add-points-pt-1)时，您将数据集转换为地图瓦片集以将其添加到新的地图样式。
 
 ### 创建一个新样式
 
-在完成[向Web地图添加点,第一部分：创建一个数据集](/help/tutorials/add-points-pt-1)后，利用基础模板创建一个新的样式。在Mapbox Studio的[样式页面](https://studio.mapbox.com/styles)上，单击**新建样式**按钮。找到 _基本模板_ 样式，然后单击**自定义基本模板**。
+在完成[Add points to a web map, part 1: create a dataset](/help/tutorials/add-points-pt-1)后，利用基础模板创建一个新的样式。在Mapbox Studio的[Styles page](https://studio.mapbox.com/styles)上，单击**新建样式**按钮。找到 _基本模板_ 样式，然后单击**自定义基本模板**。
 
 样式编辑器会自动打开。使用屏幕左上角的标题字段将新样式重命名为 _Chicago Parks_ 。
 
@@ -76,7 +76,7 @@ Web地图由[地图瓦片集](/help/how-mapbox-works/web-apps/)组成。要将�
 }}
 
 3. Mapbox Studio可识别您上传的数据集中在不同的位置，因此会显示消息 _“此地图视图中无法使用此瓦片集”_ 。点击**转到数据**，地图视图将重新聚焦芝加哥。
-4. 点击**类型**选项，然后选择 _符号_ 图层选项，以便创建带有[标记](/help/glossary/marker/)的图层。
+4. 点击**类型**选项，然后选择 _符号_ 图层选项，以便创建带有[markers](/help/glossary/marker/)的图层。
 5. 点击返回**样式**选项卡。 
 
 {{
@@ -142,11 +142,11 @@ Web地图由[地图瓦片集](/help/how-mapbox-works/web-apps/)组成。要将�
 
 ## 共享
 
-[共享模块](https://docs.mapbox.com/studio-manual/overview/publish-your-style/)包括在Web应用程序，移动应用程序或其他第三方工具中发布样式所需的资源。
+[Share modal](https://docs.mapbox.com/studio-manual/overview/publish-your-style/)包括在Web应用程序，移动应用程序或其他第三方工具中发布样式所需的资源。
 
 ### 共享
 
-单击样式编辑器右上角的**共享**。共享模块包含一个共享URL，允许您与其他人共享样式预览。该模块还包含样式URL和访问令牌，[本教程的第三部分](/help/tutorials/add-points-pt-3/)中都需要它们。
+单击样式编辑器右上角的**共享**。共享模块包含一个共享URL，允许您与其他人共享样式预览。该模块还包含样式URL和访问令牌，[part three of this tutorial](/help/tutorials/add-points-pt-3/)中都需要它们。
 
 {{
   <AppropriateImage
@@ -157,4 +157,4 @@ Web地图由[地图瓦片集](/help/how-mapbox-works/web-apps/)组成。要将�
 
 ## 下一步
 
-前往[将点添加到Web地图，第3部分：添加交互性](/help/tutorials/add-points-pt-3/)并使用Mapbox GL JS向您的地图添加有关每个公园的信息弹出窗口。
+前往[Add points to a web map, part 3: add interactivity](/help/tutorials/add-points-pt-3/)并使用Mapbox GL JS向您的地图添加有关每个公园的信息弹出窗口。
