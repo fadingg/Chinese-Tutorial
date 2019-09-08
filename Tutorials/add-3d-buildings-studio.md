@@ -53,7 +53,7 @@ contentType: tutorial
 接下来，您将会编辑样式中的建筑物图层。
 <!--copyeditor ignore okay-->
 1. 在屏幕左侧的图层面板中，选择**building**图层。
-2. 点击**Select data**。它可以打开x射线视图，显示来自建筑层的数据
+2. 点击**Select data**。它可以打开x射线视图，显示来自建筑层的数据。
 3. 单击 _New layer_ 面板中的**Type**选项，然后选择 _Fill extrusion_ 选项。如果系统提示您这样做，请单击**Okay**以确认更改图层类型。
 4. 移除此层上显示的所有过滤器。
 5. 单击 **+ Create filter** 并选择**extrude**数据属性。
